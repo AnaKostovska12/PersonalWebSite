@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacts - Ana Kostovska</title>
+    <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+<nav class="navbar">
+    <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contacts.html" class="active">Contacts</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="travels.html">Travels</a></li>
+
+    </ul>
+</nav>
+
+<main class="main-content">
+    <section class="contacts-section">
+        <h2>All contacts</h2>
+        <p>I will probably respond to any of these types of communications:</p>
+        <ul>
+            <li>Email: kostovskaana360@gmail.com</li>
+            <li>Instagram: kostovskaa__a</li>
+            <li>LinkedIn: AnaKostovska</li>
+            <li>GitHub: AnaKostovska12</li>
+            <li>Phone Number: 070 378 431</li>
+        </ul>
+        <div class="social-icons">
+            <a href="mailto:kostovskaana360@gmail.com" title="Email" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://facebook.com/AnaKosto" title="Facebook" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://github.com/AnaKostovska12" title="GitHub" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/AnaKostovska" title="Twitter" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://patreon.com/AnaKostovska" title="Patreon" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-patreon"></i>
+            </a>
+            <a href="https://youtube.com/@AnaKostovska" title="YouTube" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://wa.me/38970378431" title="WhatsApp" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+
+        <h3>My location</h3>
+        <p>I am currently based in Skopje, North Macedonia, but I am open to working abroad and flexible when it comes to travel.</p>
+    </section>
+</main>
+
+<button id="backToTop" title="Back to Top">↑</button>
+
+<script>
+    const btn = document.getElementById("backToTop");
+
+    window.onscroll = function () {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    };
+
+    btn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
+</body>
+
+</html>
