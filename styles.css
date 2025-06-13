@@ -128,7 +128,7 @@ body {
 
 .hobbies-content {
     display: flex;
-    flex-direction: column;
+/*     flex-direction: column; */
     gap: 30px;
     margin-top: 30px;
 }
@@ -188,7 +188,8 @@ body {
 
 
 .split.left {
-    flex: 1;
+/*     flex: 1; */
+    flex: 2;
     color: #ddd;
     padding: 20px;
 }
@@ -214,7 +215,8 @@ body {
     box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
     display: flex;
     justify-content: center;
-    align-items: center;
+/*     align-items: center; */
+      align-items: flex-start;
 }
 
 
