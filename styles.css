@@ -128,7 +128,6 @@ body {
 
 .hobbies-content {
     display: flex;
-/*     flex-direction: column; */
     gap: 30px;
     margin-top: 30px;
 }
@@ -215,7 +214,6 @@ body {
     box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
     display: flex;
     justify-content: center;
-/*     align-items: center; */
       align-items: flex-start;
 }
 
@@ -377,15 +375,3 @@ body {
     background-color: #e754a6;
 }
 
-/* .movie-tape .tape-frame img {
-    width: auto;
-    max-width: 180px;
-    height: auto;
-    border-radius: 8px;
-    border: 3px solid #ff69b4;
-    box-shadow: 0 2px 8px rgba(255, 105, 180, 0.7);
-    transition: transform 0.3s ease;
-    cursor: pointer;
-    align-self: center;
-}
- */
